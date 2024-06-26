@@ -1,0 +1,70 @@
+.first{
+    align-self:flex-start;
+    display: flex;
+    background-color: orange;
+    width:200px;
+    height: 400px;
+    order: 2;
+    transition-duration: 4s;
+    transition-delay: 4s;
+    justify-content: center;
+    flex-direction: column;
+}
+.first:hover{
+    align-self: flex-end;
+}
+.second{
+    display: flex;
+    width:200px;
+    height: 400px;
+    background-color: greenyellow;
+    order: 3;
+    align-self: flex-end;
+    transition-duration: 4s;
+    transition-delay: 4s;
+
+    justify-content: center;
+    flex-direction: column;
+}
+.second:hover{
+    align-self: flex-start;
+}
+.third{
+    display: flex;
+    width:200px;
+    height: 400px;
+    background-color: rgb(118, 55, 55);
+    order: 4;
+    align-self: flex-start;
+    transition-duration: 4s;
+    transition-delay: 4s;
+
+    justify-content: center;
+    flex-direction: column;
+}
+.third:hover{
+    align-self: flex-end;
+}
+.forth{
+    display: flex;
+    width:200px;
+    height: 400px;
+    background-color: blueviolet;
+    align-self: flex-end;
+    transition-duration: 4s;
+    transition-delay: 4s;
+
+    justify-content: center;
+    flex-direction: column;
+}
+.forth:hover{
+    align-self: flex-start;
+}
+.parent{
+  justify-content: space-between;
+  width: 900px;
+  height: 800px;
+  display: flex;
+text-align: center;
+
+}
